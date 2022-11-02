@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background-color:#565656;
+    height: 280px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 6px solid #fac025 ;
+    border-style: dotted;
+    padding: 3px;
+    /* align-items: center;
+    justify-content: center;
+    display: flex; */
+}
+.blank{
+    height: 50px;
+    width: 100%;
+    background-color:white;
+    
+    
+    
+}
+.name{
+    background-color: #fac025;
+    width: 400px;
+    
+    height: 80px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.Pinfo{
+    align-content: center;
+    justify-content: center;
+    --bs-gutter-x:5px;
+    border-bottom: 2px solid grey;
+    
+}
+.pro-icon{
+    font-size: 30px;
+    padding: 8px;
+    background-color: #565656;
+    color: #fac025;
+    border-radius: 50%; 
+      
+} 
+.icon{
+    width: auto;
+    padding: 2px;
+    border: 3px solid #fac025;
+    border-style: dotted;
+    border-radius: 50%;
+    
+}
+
+p{
+
+}
+.flex{
+    display: flex !important;
+    
+}
+.main{
+    
+  
+  margin: 30px ;   
+}
+.side-left{
+    padding-right: 30px;
+}
+.side-right{
+    padding-left: 30px;
+}
+
+.vertical-line{
+    border-right: 2px solid gray;
+}
+.row{
+    padding: 5px;
+}
+
+.prograssbar{
+    background-color:grey;
+    height: 10px;
+    
+    
+}
+.prograssbar div{
+    height: 10px;
+    margin: 0;
+    padding: 0;
+    width: 0%;
+    background-image:linear-gradient(to right,orange,orange, #fff)
+
+}
+.prograssbar div span{
+     height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color:#fff;
+    border: 1px solid grey;
+    float: right;
+    margin-top: -5px;
+    margin-right: -15px;
+    font-size: 10px;
+    
+    text-align: center;
+    font-size: 8px;
+    font-weight: bold;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+
+}
+.javascript{
+    animation:javascript 1s linear forwards;
+}
+.css{
+    animation:css 1s linear forwards;
+}
+.html{
+    animation:html 1s linear forwards;
+}
+.react{
+    animation:react 1s linear forwards;
+}
+.c{
+    animation:c 1s linear forwards;
+}
+.mysql{
+    animation:mysql 1s linear forwards;
+}
+.deployment{
+    animation:deployment 1s linear forwards;
+}
+
+
+
+
+
+@keyframes javascript{
+    100%{
+        width: 50%;
+    }
+}
+@keyframes css{
+    100%{
+        width: 55%;
+    }
+}
+@keyframes html{
+    100%{
+        width: 80%;
+    }
+}
+@keyframes react{
+    100%{
+        width: 10%;
+    }
+}
+@keyframes c{
+    100%{
+        width: 80%;
+    }
+}
+@keyframes mysql{
+    100%{
+        width:20%;
+    }
+}
+@keyframes deployment{
+    100%{
+        width:40%;
+    }
+}
+
+
+
+.project-management{
+    animation:project-management 1s linear forwards;
+}
+.editing{
+    animation:editing 1s linear forwards;
+}
+.time-management{
+    animation:time-management 1s linear forwards;
+}
+.leadership{
+    animation:leadership 1s linear forwards;
+}
+.communication{
+    animation:communication 1s linear forwards;
+}
+
+@keyframes project-management{
+    100%{
+        width:90%;
+    }
+}
+@keyframes editing{
+    100%{
+        width:60%;
+    }
+}
+@keyframes time-management{
+    100%{
+        width:90%;
+    }
+}
+@keyframes leadership{
+    100%{
+        width: 85%;
+    }
+}
+@keyframes communication{
+    100%{
+        width: 100%;
+    }
+}
+.profile{
+    margin-bottom:30px;
+}
+h3{
+    color:#565656;
+   display: flex;
+   margin: 10px 0 0 10px;
+   
+}
+.skills{
+    margin-bottom: 20PX;
+}
+.education,.internship,.project,.hobbies, ul {
+    margin-top: 20px;
+}
+
+.internship, .project, ul li{
+    font-weight:bold;
+}
+
+.project, .internship, ul li p{
+    font-weight: normal;
+}
+
+.internship,.hobbies{
+    margin-top: 30px;
+}
